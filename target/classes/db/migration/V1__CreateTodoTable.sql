@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS todo ( 
+	item_id UUID PRIMARY KEY NOT NULL,
+	task_name VARCHAR (100) NOT NULL,
+	is_done BOOLEAN NOT NULL,
+	created_at DATE NOT NULL
+);
